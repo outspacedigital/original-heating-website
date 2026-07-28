@@ -1,0 +1,6 @@
+{
+  "name": "Original Heating Limited",
+  "description": "Northern Ireland's premier heating company specializing in boiler installation, repairs, servicing, and central heating solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

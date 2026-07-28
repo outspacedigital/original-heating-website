@@ -1,0 +1,103 @@
+/* ==========================================================================
+   ORIGINAL HEATING LIMITED - RESPONSIVE STYLESHEET
+   Mobile, Tablet, and Desktop Adaptive Breakpoints
+   ========================================================================== */
+
+@media (max-width: 991.98px) {
+  .hero-section {
+    padding: 40px 0 60px;
+    text-align: center;
+  }
+
+  .hero-content {
+    margin-bottom: 40px;
+  }
+
+  .floating-badge {
+    display: none !important;
+  }
+
+  .hero-image-container img {
+    height: 320px;
+  }
+
+  .cta-banner {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .cta-banner .btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .top-bar {
+    text-align: center;
+  }
+
+  .top-bar .text-end {
+    text-align: center !important;
+    margin-top: 4px;
+  }
+
+  .navbar-collapse {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+
+  .nav-link.active::after {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.25rem; }
+
+  .btn-primary-orange, .btn-outline-navy, .btn-white-orange {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .trust-item {
+    font-size: 0.82rem;
+    margin-bottom: 10px;
+  }
+
+  .quote-widget-card {
+    padding: 20px 16px;
+  }
+
+  .service-card {
+    padding: 24px 18px;
+  }
+
+  .contact-info-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .page-header {
+    padding: 45px 0;
+    text-align: center;
+  }
+
+  .footer-main {
+    text-align: center;
+  }
+
+  .footer-title::after {
+    margin: 8px auto 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1240px;
+  }
+}
